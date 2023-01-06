@@ -52,7 +52,7 @@ Based on modelling done in B22b (Sec. 3.5.1 & Fig. 6), stars with T_eff > 6072 K
 * `normalized depth`: the normalized depth of the absorption feature corresponding to this transition in a HARPS observation of the Sun reflected off Vesta (0 is the continuum, 1 would be fully saturated).
 * `blendedness`: the degree of blending observed in the absorption feature corresponding to this transition in a HARPS observation of the Sun. Runs from 0 to 5, where 0 means "no detectable blending" and 5 means "extremely blended". The scale was established by visual inspection of the data and is ultimately arbitrary, but reasonably corresponds to increased scatter in transitions with higher blendedness. Generally, 3 or below should be "safe" to use.
 
-`pair_moodel_coefficients/`
+`pair_model_coefficients/`
 =========================
 The two files contained in this directory hold the coefficients determined for each pair of transitions as detailed in B22b, where the coefficients are to be used in Eq. 4. The format is as follows:
 
